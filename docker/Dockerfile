@@ -2,8 +2,10 @@ FROM zacktymphany/docker-test:latest
 
 USER root
 
-RUN apt-get update && apt-get install tree
+ADD ../README.md /home
 
-RUN touch /home/zack-test.txt
+#RUN apt-get update && apt-get install tree
+
+RUN touch /home/zack-test1.txt
 
 ENV SHELL=/bin/bash
