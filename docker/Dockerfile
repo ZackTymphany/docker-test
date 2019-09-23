@@ -2,7 +2,7 @@ FROM zacktymphany/docker-test:latest
 
 USER root
 
-ADD ../README.md /home
+ADD https://github.com/ZackTymphany/docker-test.git /home
 
 #RUN apt-get update && apt-get install tree
 
