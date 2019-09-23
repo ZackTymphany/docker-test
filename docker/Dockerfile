@@ -2,10 +2,12 @@ FROM zacktymphany/docker-test:latest
 
 USER root
 
-ADD https://github.com/ZackTymphany/docker-test.git /home
+WORKDIR /home
+
+ADD https://github.com/ZackTymphany/docker-test.git ./
 
 RUN apt-get update && apt-get install tree
 
-RUN touch /home/zack-test1.txt
+RUN touch zack-test2.txt
 
 ENV SHELL=/bin/bash
