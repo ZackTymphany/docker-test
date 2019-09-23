@@ -1,4 +1,4 @@
-FROM zacktymphany/docker-test
+FROM zacktymphany/docker-test:latest
 
 USER root
 
