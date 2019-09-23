@@ -1,7 +1,7 @@
 FROM zacktymphany/docker-test:latest
 
 
-WORKDIR /home
+#WORKDIR /home
 
 USER root
 
