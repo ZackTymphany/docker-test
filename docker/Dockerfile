@@ -1,8 +1,9 @@
 FROM zacktymphany/docker-test:latest
 
-USER root
 
 WORKDIR /home
+
+USER root
 
 ADD https://github.com/ZackTymphany/docker-test.git ./
 
