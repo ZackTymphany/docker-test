@@ -5,7 +5,7 @@ FROM zacktymphany/docker-test:latest
 
 USER root
 
-ADD https://github.com/ZackTymphany/docker-test.git ./
+#ADD https://github.com/ZackTymphany/docker-test.git ./
 
 RUN apt-get update && apt-get install tree
 
